@@ -1,0 +1,1 @@
+const container = document.querySelector(".container")const n = 600for (let i = 0; i < n; i++){    const square = document.createElement("div")    container.append(square)    square.setAttribute("class",'square')    square.addEventListener("mouseleave", ()=>{        square.style.background = "blue"    })}
